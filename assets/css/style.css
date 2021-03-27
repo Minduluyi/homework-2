@@ -19,17 +19,19 @@ h1 {
 .paragraph{
         color:greenyellow;
 }
-.box { background-color: blue;  
-        height: 100px;
-        width: 50px;
-        display: flex;
-        
-}
-.box2{ background-color: lightblue;
-       height:15px;
-       width: 10px;
-        }
-     
+
+
+
+#grid {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+
+} 
+.box { background-color: lightblue;
+    
+    border: solid;
+    border-color: hotpink;
+     }
 
 ul {
     list-style: none;
