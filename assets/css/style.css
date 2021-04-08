@@ -21,9 +21,9 @@ h1 {
 }
 
 
-
 #grid {
   display: grid;
+  
   grid-template-rows: 2fr 1fr 1fr;
 
 } 
@@ -41,7 +41,6 @@ ul {
     background: #00688B;
     display: flex;
     justify-content: space-between;
-    position: fixed;
     width: 100%;
 }
 
@@ -50,7 +49,7 @@ ul {
 }
 
 #nav-list {
-    display: flex;
+    display: inline-flex;
 }
 
 #nav-list a {
@@ -58,3 +57,40 @@ ul {
     display: block;
     font-size: 22px;
     padding: 27px;
+}
+
+#about-me h2 { 
+    display: inline-flex;
+    margin: 40px;
+
+    }
+#profile-picture { 
+    height: 200px;
+    width: auto;
+    margin: 20px; 
+}
+
+#work h2 {
+
+    display: inline-flex;
+    margin: 40px;
+
+}
+#work-picture {
+
+    Height: 75px;
+    width: auto;
+    margin: 40px;
+
+    }
+
+#contact-me { 
+
+    display: inline-flex;
+    margin:  40px;
+ 
+    }  
+
+
+
+
